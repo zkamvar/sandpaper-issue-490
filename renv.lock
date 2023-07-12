@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.2",
+    "Version": "4.3.1",
     "Repositories": [
       {
         "Name": "carpentries",
@@ -66,8 +66,18 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.0",
-      "Source": "Repository"
+      "Version": "1.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "rstudio",
+      "RemoteRepo": "renv",
+      "RemoteRef": "main",
+      "RemoteSha": "5e65570d47162200797689ae2d90c5dde5cb9710",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "9b0344a108f4ca11ddcce434eb50652f"
     }
   }
 }
