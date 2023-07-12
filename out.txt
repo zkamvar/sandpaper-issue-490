@@ -1,14 +1,9 @@
 - The library is already synchronized with the lockfile.
-[1] FALSE
-The following package(s) will be updated in the lockfile:
+trying URL 'https://raw.githubusercontent.com/carpentries/workbench-template-rmd/3b4e68e904e1fd9185362b5a117b8c69108f81cf/renv/profiles/lesson-requirements/renv.lock'
+Content type 'text/plain; charset=utf-8' length 9106 bytes
+==================================================
+downloaded 9106 bytes
 
-# CRAN -----------------------------------------------------------------------
-- renv   [* -> 1.0.0]
-
-The version of R recorded in the lockfile will be updated:
-- R      [* -> 4.3.1]
-
-- Lockfile written to '~/Documents/Carpentries/Git/zkamvar/sandpaper-issue-490/test/renv.lock'.
 [1] "/home/zhian/Documents/Carpentries/Git/zkamvar/sandpaper-issue-490/test"
 [1] "/home/zhian/Documents/Carpentries/Git/zkamvar/sandpaper-issue-490/test/renv/library/R-4.3/x86_64-pc-linux-gnu"
 [1] "/home/zhian/Documents/Carpentries/Git/zkamvar/sandpaper-issue-490/test/renv.lock"
@@ -22,48 +17,17 @@ The following packages are used in this project, but not available locally:
 
 renv will attempt to download and install these packages.
 
-- Hydrated 0 packages in 0.0041 milliseconds.
+- Hydrated 0 packages in 0.0069 milliseconds.
 - Resolving missing dependencies ... 
 # Installing packages --------------------------------------------------------
 
-- Installing ps ...                             OK [linked from cache in 5e-04s]
-- Installing R6 ...                             OK [linked from cache in 0.00032s]
-- Installing processx ...                       OK [linked from cache in 0.00027s]
-- Installing callr ...                          OK [linked from cache in 0.00024s]
-- Installing cli ...                            OK [linked from cache in 0.00041s]
-- Installing clipr ...                          OK [linked from cache in 5e-04s]
-- Installing fs ...                             OK [linked from cache in 0.00031s]
-- Installing glue ...                           OK [linked from cache in 0.00027s]
-- Installing evaluate ...                       OK [linked from cache in 0.00025s]
-- Installing xfun ...                           OK [linked from cache in 0.00049s]
-- Installing highr ...                          OK [linked from cache in 0.00044s]
-- Installing yaml ...                           OK [linked from cache in 0.00037s]
-- Installing knitr ...                          OK [linked from cache in 0.00029s]
-- Installing rlang ...                          OK [linked from cache in 0.00032s]
-- Installing lifecycle ...                      OK [linked from cache in 0.00025s]
-- Installing base64enc ...                      OK [linked from cache in 0.00036s]
-- Installing fastmap ...                        OK [linked from cache in 0.00046s]
-- Installing cachem ...                         OK [linked from cache in 0.00029s]
-- Installing digest ...                         OK [linked from cache in 0.00031s]
-- Installing ellipsis ...                       OK [linked from cache in 0.00031s]
-- Installing htmltools ...                      OK [linked from cache in 0.00039s]
-- Installing jquerylib ...                      OK [linked from cache in 0.00048s]
-- Installing jsonlite ...                       OK [linked from cache in 0.00044s]
-- Installing memoise ...                        OK [linked from cache in 0.00033s]
-- Installing mime ...                           OK [linked from cache in 0.00039s]
-- Installing rappdirs ...                       OK [linked from cache in 0.00027s]
-- Installing sass ...                           OK [linked from cache in 0.00029s]
-- Installing bslib ...                          OK [linked from cache in 0.00038s]
-- Installing fontawesome ...                    OK [linked from cache in 0.00047s]
-- Installing magrittr ...                       OK [linked from cache in 0.00032s]
-- Installing stringi ...                        OK [linked from cache in 0.00029s]
-- Installing vctrs ...                          OK [linked from cache in 0.00029s]
-- Installing stringr ...                        OK [linked from cache in 0.00026s]
-- Installing tinytex ...                        OK [linked from cache in 0.00028s]
-- Installing rmarkdown ...                      OK [linked from cache in 0.00058s]
-- Installing rstudioapi ...                     OK [linked from cache in 0.00052s]
-- Installing withr ...                          OK [linked from cache in 0.00037s]
-- Installing reprex ...                         OK [linked from cache in 0.00031s]
+- Installing ps ...                             OK [linked from cache in 0.00036s]
+- Installing processx ...                       OK [linked from cache in 0.00028s]
+- Installing callr ...                          OK [linked from cache in 0.00033s]
+- Installing clipr ...                          OK [linked from cache in 0.00027s]
+- Installing rstudioapi ...                     OK [linked from cache in 0.00032s]
+- Installing withr ...                          OK [linked from cache in 0.00047s]
+- Installing reprex ...                         OK [linked from cache in 0.00041s]
 
 The following required packages are not installed:
 
