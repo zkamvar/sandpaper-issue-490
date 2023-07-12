@@ -66,6 +66,14 @@ will do the following:
 
 ## Findings
 
+When I look at the directory under `test/renv/library/R-4.3/[platform]/`, I
+find that {reprex} _is_ included.
+
+However, the lockfile does not show the inclusion of {reprex}, which is clear
+from the fact that this test failed during the `renv::restore()` step and never
+got to the `renv::snapshot()` step.
+
+
 ## Reproducing
 
 to reproduce, use `run.sh`
