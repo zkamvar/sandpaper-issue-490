@@ -17,17 +17,17 @@ The following packages are used in this project, but not available locally:
 
 renv will attempt to download and install these packages.
 
-- Hydrated 0 packages in 0.0069 milliseconds.
+- Hydrated 0 packages in 0.028 milliseconds.
 - Resolving missing dependencies ... 
 # Installing packages --------------------------------------------------------
 
-- Installing ps ...                             OK [linked from cache in 0.00036s]
-- Installing processx ...                       OK [linked from cache in 0.00028s]
-- Installing callr ...                          OK [linked from cache in 0.00033s]
-- Installing clipr ...                          OK [linked from cache in 0.00027s]
-- Installing rstudioapi ...                     OK [linked from cache in 0.00032s]
-- Installing withr ...                          OK [linked from cache in 0.00047s]
-- Installing reprex ...                         OK [linked from cache in 0.00041s]
+- Installing ps ...                             OK [linked from cache in 0.00038s]
+- Installing processx ...                       OK [linked from cache in 0.00027s]
+- Installing callr ...                          OK [linked from cache in 0.00027s]
+- Installing clipr ...                          OK [linked from cache in 0.00025s]
+- Installing rstudioapi ...                     OK [linked from cache in 0.00027s]
+- Installing withr ...                          OK [linked from cache in 0.00025s]
+- Installing reprex ...                         OK [linked from cache in 0.00032s]
 
 The following required packages are not installed:
 
