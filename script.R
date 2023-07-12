@@ -1,5 +1,6 @@
 renv::restore()
-lockfile <- "https://raw.githubusercontent.com/carpentries/workbench-template-rmd/f6ea6bca196ecd127d4e550afa6e940513419d1c/renv/profiles/lesson-requirements/renv.lock"
+blob <- "3b4e68e904e1fd9185362b5a117b8c69108f81cf"
+lockfile <- paste0("https://raw.githubusercontent.com/carpentries/workbench-template-rmd/", blob, "/renv/profiles/lesson-requirements/renv.lock")
 if (dir.exists("test")) {
   unlink("test", recursive = TRUE, force = TRUE)
 }
